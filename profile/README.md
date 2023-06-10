@@ -3,7 +3,7 @@
 
 <h1 align="center">Deku</h1>
 
-`Deku, messaging layer for cross-chains sharing same Data Availability layer `
+<h3 align="center">Deku, messaging layer for cross-chains sharing same Data Availability layer</h1>
 
 <p align="center">
 Make multiple cross-chain transactions at one request. How? If rollups are sharing same DA layer, just post cross-chain transaction to DA directly.
