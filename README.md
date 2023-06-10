@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/deku-da-project/.github/blob/623accd27ebbf04ef8b4df8715a84eedcff6c988/profile/deku.jpg"/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/deku.jpg"/>
 
 `Deku, messaging layer for cross-chains sharing same Data Availability layer `
 
@@ -29,7 +29,7 @@ Deku aims to provide an `seamless cross-chain transaction experience` that offer
 For example, lets say Gitcoin is running their own rollup. And using Deku, other rollups that uses same DA layer as Gitcoin can actually do `cross-chain public goods voting` and batch this `multiple voting transactions into one DA request`.
 
 <p align="center">
-<img src="https://github.com/deku-da-project/.github/blob/main/profile/example.png" width=400/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/example.png" width=400/>
 
 ---
 
