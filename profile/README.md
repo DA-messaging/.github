@@ -1,6 +1,8 @@
 <p align="center">
 <img src="https://github.com/Deku-DA-project/.github/blob/main/profile/deku.jpg"/>
 
+<h1 align="center">Deku</h1>
+
 `Deku, messaging layer for cross-chains sharing same Data Availability layer `
 
 <p align="center">
