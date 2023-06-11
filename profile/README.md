@@ -109,3 +109,13 @@ Lets see what happens when user wants to create cross-chain bridging transaction
 - Celestia has two endpoints, gateway and openRPC. Celestia plans to have gateway read-only and openRPC for writing and reading.
   We tried using openRPC first but in the older versions it does not return anything and in the newest version it is failing with a claim that the JSON is misconfigured. Then we tried gateway nevertheless and we were able to read and write in the versions we tested.
   But due to the other blockers, we were not able to continue with that.
+
+---
+
+## Resources
+
+🖥️ Celestia: <https://docs.celestia.org/>
+
+🖥️ Rollkit: <https://rollkit.dev/docs/intro/>
+
+💡 Data Availability <https://ethereum.org/en/developers/docs/data-availability/>
