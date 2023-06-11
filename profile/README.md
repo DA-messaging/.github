@@ -89,7 +89,7 @@ For example, lets say Gitcoin is running their own rollup. And using Deku, other
 
 ### Implementation for hackathon
 
-- Need at least 2 rollup, deployed by roll-kit. ( using Celestia as DA in common )
+- Need at least 2 rollup, deployed by rollkit. ( using Celestia as DA in common )
 - Each rollup, need to modify sequencer Golang code to accept `Deku` namespace from celestia
 - Each rollup, need to deploy account and fund balance on one chain
 - using `Deku` frontend, make two transaction 1) send 10 eth from A to B, 2) send 5 eth from B to A
@@ -98,7 +98,7 @@ For example, lets say Gitcoin is running their own rollup. And using Deku, other
 - Check out sequencer on A and B will generate block of latest state and post it in DA layer again
 - if we check balance on account a and b has changed on DA through light client, then can say this cross chain transaction is finalized. ( Succeess )
 
-### Blockers
+### What blockers we faced while implementing
 
 - We tried integrating with a Celestia local devnet in different versions where we failed.
   There were different reasons why we failed for different Celestia versions.
@@ -107,6 +107,3 @@ For example, lets say Gitcoin is running their own rollup. And using Deku, other
 - Celestia has two endpoints, gateway and openRPC. Celestia plans to have gateway read-only and openRPC for writing and reading.
   We tried using openRPC first but in the older versions it does not return anything and in the newest version it is failing with a claim that the JSON is misconfigured. Then we tried gateway nevertheless and we were able to read and write in the versions we tested.
   But due to the other blockers, we were not able to continue with that.
-
-
-### What blockers we faced while implmenting
