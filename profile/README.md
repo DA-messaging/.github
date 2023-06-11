@@ -91,7 +91,7 @@ Let's see what happens when the user wants to create a cross-chain bridging tran
 - Same for other rollups who want to access other chains' data through this architecture.
 
 <p align="center">
-<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step4.png" width=400/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step5.png" width=400/>
 
 ---
 
