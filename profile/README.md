@@ -35,47 +35,34 @@ For example, lets say Gitcoin is running their own rollup. And using Deku, other
 
 ---
 
-<!--
-## User Flows
+## Architecture
 
-### Create Wallet
-
-<p align="center">
-<img src="https://github.com/scaling-eth-2023/.github/blob/main/profile/create-wallet.jpeg" width=400/>
-
-- User enter password and create wallet
-- (optional) User can set social recovery through email
-
-### Join Membership
+### User created cross-chain transactions to Deku
 
 <p align="center">
-<img src="https://github.com/scaling-eth-2023/.github/blob/main/profile/join-membership.jpeg" width=400/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step0.png" width=400/>
 
-- Join membership button allows user to join membership
-- User can see list of memberships in website or individual membership in protocol page itself
-
-### Execute Transaction
+### Deku process transactions and post to DA layer using `Deku` namespace
 
 <p align="center">
-<img src="https://github.com/scaling-eth-2023/.github/blob/main/profile/execute-transaction.jpeg" width=400/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step1.png" width=400/>
 
-- User do transactions or conditions about the specific membership requires (i.g. make more than 5 transactions, get NFT etc)
-- If user's Fuchsia gets certain membership, they will get benefit from membership's community (i.g. get gas fee discount 30%, pay gas fee with $GOV token etc)
-
-### Recover Wallet
+### Sequencer fetch state of storage from `Deku` namespace in Rollup
 
 <p align="center">
-<img src="https://github.com/scaling-eth-2023/.github/blob/main/profile/recover-wallet.jpeg" width=400/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step2.png" width=400/>
 
-- If user forgot private key or move the wallet into different browser, enter email used for social recovery, and can successfully change owner
-
----
-
-## User Flows (user = community owner)
-
-### Create Membership
+### Decode data and validate signature and drop transactions that are not compatible in certain execution
 
 <p align="center">
-<img src="https://github.com/scaling-eth-2023/.github/blob/main/profile/create-membership.jpeg" width=400/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step3.png" width=400/>
 
-- Create membership tiers. Each tier should contain conditions to become and benefits for them. -->
+### Now its same as how other rollup works. Post latest state as block to DA
+
+<p align="center">
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step4.png" width=400/>
+
+### Now your two rollups have updated state in DA
+
+<p align="center">
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step4.png" width=400/>
