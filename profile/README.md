@@ -1,12 +1,13 @@
 <p align="center">
 <img src="https://github.com/Deku-DA-project/.github/blob/main/profile/deku.jpg"/>
 
-<h1 align="center">Deku</h1>
+<h1 align="center">Deku, Shared DA as a messaging channel</h1>
 
-<h3 align="center">Deku, adding messaging layer for cross-chains that sharing same Data Availability layer</h1>
+<h3 align="center">Deku is a new idea of soverign roll-up architecture design, that adding messaging layer for cross- sovergin rollups that share same Data Availability layer</h1>
 
-<p align="center">
-Make multiple cross-chain transactions at one request. How? If rollups are sharing same DA layer, just post cross-chain transaction to DA directly.
+- Eventually what rollup garentee hard finality is DA layer. `Deku` approached directly to DA layer.
+- Make multiple cross-chain transactions at only one request to DA layer.
+- Let's think different. Lower the demention where user is sending transaction. We can first post on DA, and later can garentee finality through rollup sequencing.
 
 ---
 
