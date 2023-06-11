@@ -62,14 +62,14 @@ Lets see what happens when user wants to create cross-chain bridging transaction
 - To make Deku design accessacble from A to B, each rollup's sequencer should accept not only their own state update, but also accept `Deku` namespace update for data accessability with other chain that they want
 
 <p align="center">
-<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step2.png" width=800/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step2.png" width=400/>
 
 ### Decode data and validate signature and drop transactions that are not compatible in certain execution
 
 - Decode the transaction data and this will contain transactions that cannot execute on this rollup. We need to drop this transactions if not compatible. And executes the batch of transactions.
 
 <p align="center">
-<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step3.png" width=400/>
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/step3.png" width=800/>
 
 ### Now its same as how other rollup works. Post latest state as block to DA
 
