@@ -16,13 +16,13 @@ Make multiple cross-chain transactions at one request. How? If rollups are shari
 
 🖥️ FrontEnd: <https://github.com/Deku-DA-project/frontend>
 
-💡 Live Site: <>
-
 ---
 
 ## Project Description
 
 ### What is Deku?
+
+In this project Deku, we introducing new approach to access crosschain data if they are soveriegn rollups that using same DA layer. This project is more like
 
 Deku aims to provide an `seamless cross-chain transaction experience` that offers users `batch multiple cross-chain transactions into one request`. By creating a membership payment system that utilizes blockchain technology --using Account Abstraction for customization, users can potentially receive discounts on gas fees and even pay gas with native tokens -- can be anything! Additionally, the ability to customize benefits based on membership tier could provide a `personalized experience for users while also allowing communities to set specific conditions for each tier`.
 
@@ -35,7 +35,9 @@ For example, lets say Gitcoin is running their own rollup. And using Deku, other
 
 ---
 
-## Architecture
+## Architecture Deep Dive
+
+Lets see what happens when user wants to create cross-chain bridging transaction about Soverign Rollup A and B using Celestia as DA layer.
 
 ### (1) User created cross-chain transactions to Deku
 
