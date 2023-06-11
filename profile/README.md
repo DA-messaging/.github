@@ -27,6 +27,13 @@ In this project, Deku, we introduce a new approach to accessing cross-chain data
 
 Deku aims to provide an `seamless cross-chain transaction experience` that offers users `batch multiple cross-chain transactions into one request`. By creating a membership payment system that utilizes blockchain technology --using Account Abstraction for customization, users can potentially receive discounts on gas fees and even pay gas with native tokens -- can be anything! Additionally, the ability to customize benefits based on membership tier could provide a `personalized experience for users while also allowing communities to set specific conditions for each tier`.
 
+### How user communitcate using Deku architecture?
+
+Here is the simple desktop application example that calls local DA node.
+
+<p align="center">
+<img src="https://github.com/Deku-DA-project/.github/blob/main/profile/frontend.png"/>
+
 ### Usecase
 
 For example, let's say Gitcoin is running its own rollup. And using Deku, other rollups that use the same DA layer as Gitcoin can actually do `cross-chain public goods voting` and batch these `multiple voting transactions into one DA request`.
