@@ -89,11 +89,13 @@ For example, lets say Gitcoin is running their own rollup. And using Deku, other
 
 ### Implementation for hackathon
 
-- [] Need at least 2 rollup, deployed by roll-kit. ( using Celestia as DA in common )
-- [] Each rollup, need to modify sequencer Golang code to accept `Deku` namespace from celestia
-- [] Each rollup, need to deploy account and fund balance on one chain
-- [] using `Deku` frontend, make two transaction 1) send 10 eth from A to B, 2) send 5 eth from B to A
-- [] after submit transactions, `transaction processor` need to process ( divide one cross-chain transaction into per chain and encode it and sign the message ), and Celestia light client node that running on local will send transactions to DA layer using `Deku` namespace.
-- [] Check out does sequencer on A and B gets transaction data from `Deku` namespace, and if they get it then need to decode it and validate signature and execute the transactions that compatible to their execution layer.
-- [] Check out sequencer on A and B will generate block of latest state and post it in DA layer again
-- [] if we check balance on account a and b has changed on DA through light client, then can say this cross chain transaction is finalized. ( Succeess )
+- Need at least 2 rollup, deployed by roll-kit. ( using Celestia as DA in common )
+- Each rollup, need to modify sequencer Golang code to accept `Deku` namespace from celestia
+- Each rollup, need to deploy account and fund balance on one chain
+- using `Deku` frontend, make two transaction 1) send 10 eth from A to B, 2) send 5 eth from B to A
+- after submit transactions, `transaction processor` need to process ( divide one cross-chain transaction into per chain and encode it and sign the message ), and Celestia light client node that running on local will send transactions to DA layer using `Deku` namespace.
+- Check out does sequencer on A and B gets transaction data from `Deku` namespace, and if they get it then need to decode it and validate signature and execute the transactions that compatible to their execution layer.
+- Check out sequencer on A and B will generate block of latest state and post it in DA layer again
+- if we check balance on account a and b has changed on DA through light client, then can say this cross chain transaction is finalized. ( Succeess )
+
+### What blockers we faced while implmenting
